@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+header{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #ffffff;
+  border-bottom:1px solid #f9f9f9;
+  position: fixed;
+  width: 100%;
+  
+}
+.logo-container{ margin-left:3% ; margin-right: 1%; }
+.myntra-logo{
+
+ height: 36px;
+ width: 53px;
+}
+.nav-bar{
+ display: flex;
+ justify-content: space-between;
+ min-width: 500px;
+ 
+}
+.nav-bar a{
+ font-size: 13.5px;
+ letter-spacing: .3px;
+ color: #282c3f;
+ font-weight: 650;
+ text-transform: uppercase;
+ text-decoration: none;
+ text-align: center;
+ padding: 29px 0;
+ border-bottom: 3px solid #ffffff;
+}
+#bottom_colour1:hover{border-bottom: 3px solid #ee5f73;;}
+#bottom_colour2:hover{border-bottom: 3px solid #fb56c1;}
+#bottom_colour3:hover{border-bottom: 3px solid #f26a10;;}
+#bottom_colour4:hover{border-bottom: 3px solid #f2c210;;}
+#bottom_colour5:hover{border-bottom: 3px solid #0db7af;;}
+#bottom_colour6:hover{border-bottom: 3px solid #f54e77;}
+.nav-bar a sup{
+ color: red;
+ font-size: 9px;
+}
+.search-bar{
+ height: 40px;
+ min-width: 30%;
+ display: flex;
+ align-items: center;
+ background: #f5f5f6;
+ color: #696e79;
+ border-radius: 10px;
+ 
+}
+.search-bar i{
+ box-sizing: content-box;
+ height: 20px;
+ padding: 10px;
+ color: #282c3f;
+ border-radius: 10px 0 0 10px;
+}
+.search_input{
+ height: 40px;
+  border: 0;
+  background: #f5f5f6;
+  flex-grow: 1;
+  border-radius:10px;
+}
+.action-bar{
+ min-width: 200px;
+ margin-right:  30px;
+ display: flex;
+ justify-content: space-around;
+}
+.action-item{text-align: center; font-size: 13px;
+text-decoration: none;
+color: #282c3f;
+font-weight: 500;}
+.action-item i{
+align-items: center;
+}
+.banner_container{
+
+  padding: 120px 100px 0px 100px;
+  justify-content: center;
+}
+.banner_image{
+  width: 100%;
+  height: auto;
+  border: 0.5px solid rgba(0, 0, 0, 0.13);
+}
+.offers_banner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 8%;
+  
+}
+.bankoffer_image{
+  height: auto;
+  width: 100%;
+}
+#coupon_offer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 10%;
+}
+#coupon_offer img{
+  width: 100%;
+  height: auto;
+}
+#categ{
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10%;
+}
+#categ img{
+  width: 126px;
+}
+.omg_deals_image{
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10%;
+  width: 100%;
+  height: auto;
+}
+#omg_deals{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.omg_deals_items{
+height: 230px;
+}
+
+#shop_categ_image{
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10%;
+  width: 100%;
+  height: auto;
+}
+#shop_categ{
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10%;
+}
+#shop_categ img{
+  width: 160px;
+  height: auto;
+}
+#download_banner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 10%;
+}
+#download_banner img{
+  width: 100%;
+  height: auto;
+}
+.footer_container{
+  padding: 30px 0 40px 0;
+  background-color: #fafbfc;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer_column{
+  display: flex;
+  flex-direction: column;
+}
+#footer_column1 a,#footer_column2 a{
+  text-transform: capitalize;
+  color: #696b79;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  line-height: normal;
+}
+.footer_column h3{
+  margin: 12px 0;
+  font-size: 12px;
+  color: #282c3f;
+}
+.app_store{
+height: 42px;
+margin: 0 2px;
+}
+#socialmedia_link i{
+  color:#696e79 ;
+  margin: 3px ;
+  
+}
+#footer_column4 .seal{
+display: flex;
+align-items: center;
+font-size: 12px;
+color: #282c3f;
+font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.seal strong{
+  padding: 5px;
+}
+#footer_column4 img{
+  height: 40px;
+}
+.copyright{
+  padding: 20px;
+  color: #94969f;
+  text-align: end;
+  margin-left: 100px;
+  font-size: 14px;
+  background-color: #fafbfc;
+}
+.copyright a{
+  color: #94969f;
+  
+  text-decoration: none;
+}
